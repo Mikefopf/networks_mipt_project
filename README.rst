@@ -21,5 +21,4 @@ Open browser::
 
     http://127.0.0.1:8080
 
-Open several tabs, make them visible at the same time (to see messages sent from other tabs
-without page refresh).
+Open several tabs, make them visible at the same time.
