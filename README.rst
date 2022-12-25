@@ -1,7 +1,4 @@
-Chat Demo
-=========
-
-Chat with websockets.
+Transliterator
 
 Installation
 ============
