@@ -1,0 +1,13 @@
+README.rst
+setup.py
+transliterator/__init__.py
+transliterator/main.py
+transliterator/transliterator.py
+transliterator/utils.py
+transliterator/views.py
+transliterator.egg-info/PKG-INFO
+transliterator.egg-info/SOURCES.txt
+transliterator.egg-info/dependency_links.txt
+transliterator.egg-info/not-zip-safe
+transliterator.egg-info/requires.txt
+transliterator.egg-info/top_level.txt
