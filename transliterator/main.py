@@ -1,4 +1,5 @@
 import logging
+import argparse
 
 import jinja2
 
@@ -6,6 +7,11 @@ import aiohttp_jinja2
 from aiohttp import web
 from views import index
 
+parser = argparse.ArgumentParser(description="Networks project")
+parser.add_argument('--host', help="Host to listen", default="0.0.0.0")
+parser.add_argument('--port', help="Port to accept connections", default=10759)
+
+args = parser.parse_args()
 
 async def init_app():
 
@@ -37,12 +43,12 @@ async def get_app():
     return app
 
 
-def main():
+def main(args):
     logging.basicConfig(level=logging.DEBUG)
 
     app = init_app()
-    web.run_app(app)
+    web.run_app(app, host=args.host, port=args.port)
 
 
 if __name__ == '__main__':
-    main()
+    main(args)
