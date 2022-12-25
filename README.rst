@@ -15,7 +15,7 @@ Install the app::
 
 Run application::
 
-    $ python main.py --host $HOST --port $PORT
+    $ python transliterator/main.py --host $HOST --port $PORT
 
 default $HOST - 0.0.0.0
 
