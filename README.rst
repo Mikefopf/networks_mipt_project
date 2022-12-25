@@ -8,13 +8,13 @@ Installation
 
 Clone repo and install library::
 
-    $ git clone git@github.com:aio-libs/aiohttp-demos.git
-    $ cd aiohttp-demos
+    $ git clone https://github.com/Mikefopf/networks_mipt_project
+    $ cd networks_mipt_project
 
 Install the app::
 
-    $ cd demos/chat
     $ pip install -e .
+    $ pip install -r requirements.txt
 
 Run application::
 
@@ -26,14 +26,3 @@ Open browser::
 
 Open several tabs, make them visible at the same time (to see messages sent from other tabs
 without page refresh).
-
-
-Requirements
-============
-* aiohttp_
-* aiohttp_jinja2_
-
-
-.. _Python: https://www.python.org
-.. _aiohttp: https://github.com/aio-libs/aiohttp
-.. _aiohttp_jinja2: https://github.com/aio-libs/aiohttp_jinja2
