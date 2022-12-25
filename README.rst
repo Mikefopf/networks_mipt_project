@@ -18,6 +18,7 @@ Run application::
     $ python main.py --host $HOST --port $PORT
 
 default $HOST - 0.0.0.0
+
 default $PORT - 10759
 
 Open link in the end of stdout::
