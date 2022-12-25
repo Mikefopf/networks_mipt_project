@@ -15,10 +15,13 @@ Install the app::
 
 Run application::
 
-    $ python main.py
+    $ python main.py --host $HOST --port $PORT
 
-Open browser::
+default $HOST - 0.0.0.0
+default $PORT - 10759
 
-    http://127.0.0.1:8080
+Open link in the end of stdout::
+
+    default - http://0.0.0.0:10759
 
 Open several tabs, make them visible at the same time.
